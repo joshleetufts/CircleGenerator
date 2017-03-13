@@ -142,16 +142,16 @@ class Circle:
 # Carries a list of circles' pixels into its ownarray
 class Circle_List:
     
-    def __init__(self, name):
-            # List of circles making up the stripe in the image set
-            self.circles = list()
-            # Name of the list in the graph.
-            self.name = name
+        def __init__(self, name):
+                # List of circles making up the stripe in the image set
+                self.circles = list()
+                # Name of the list in the graph.
+                self.name = name
         
-            # Adds circles to its list
-            def add_circles(self, pixel_list):
-                    self.circles.append(pixel_list)
+        # Adds circles to its list
+        def add_circles(self, pixel_list):
+                self.circles.append(pixel_list)
         
-            # Access individual circles within the list
-            def get_circles(self):
-                    return self.circles
+        # Access individual circles within the list
+        def get_circles(self):
+                return self.circles
