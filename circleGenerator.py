@@ -314,6 +314,7 @@ class Graph:
                 img.save('Color' + str(save_num) + '.png')
 
 
+        # Function used for debugging purposes
         """
             def find_all_distances(self, circles, image):
                     self.bfs(circles, image)
